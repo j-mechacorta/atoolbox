@@ -1,2 +1,8 @@
 .tox
 .tox/*
+__pycache__
+tests/__pycache__
+toolbox/__pycache__
+toolbox/__pycache__/*
+tests/__pycache__/*
+toolbox/sparky/__pycache__/*
