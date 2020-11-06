@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "toolbox"
+version = "0.0.1"
+description = "Useful spark functions"
+authors = ["Adrian Alanis"]
+
+[tool.poetry.dependencies]
+python = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
