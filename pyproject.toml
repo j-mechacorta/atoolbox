@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "atoolbox"
-version = "0.0.1"
+version = "0.0.2"
 description = "Useful functions for spark"
 authors = ["A. Alanis <ze13ju@gmail.com>"]
 license = "MIT"
