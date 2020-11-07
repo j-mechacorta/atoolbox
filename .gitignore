@@ -1,3 +1,5 @@
+dist
+dist/*
 .tox
 .tox/*
 __pycache__

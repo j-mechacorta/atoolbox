@@ -1,11 +1,20 @@
 [tool.poetry]
-name = "toolbox"
+name = "atoolbox"
 version = "0.0.1"
-description = "Useful spark functions"
-authors = ["Adrian Alanis"]
+description = "Useful functions for spark"
+authors = ["A. Alanis <ze13ju@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/j-mechacorta/atoolbox"
+keywords = ["pyspark"]
+classifiers = [
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: python Modules"
+]
+include= ["LICENSE",]
 
 [tool.poetry.dependencies]
-python = "*"
+python = "^3.6"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
