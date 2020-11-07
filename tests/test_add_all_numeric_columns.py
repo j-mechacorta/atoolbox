@@ -3,7 +3,7 @@ from pyspark.sql.types import FloatType, IntegerType, LongType, StringType, Stru
 from pyspark.sql.functions import col
 from operator import add
 from functools import reduce
-import toolbox.sparky as tbs
+import atoolbox.spark as tbs
 
 
 sa = StructType([
