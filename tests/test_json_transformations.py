@@ -36,7 +36,7 @@ def test_export_as_json():
     for root, dirs, files in _walk:
         _fs = [_f for _f in files if not _f[0] == '.']
         _fs = [_f for _f in _fs if not '_SUCCESS' in _f]
-        _file = _fs[1]
+        _file = _fs[0]
     with open(f'/tmp/out/{_file}') as f:
         try:
             data = json.load(f)
