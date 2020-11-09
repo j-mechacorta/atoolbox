@@ -8,3 +8,8 @@ toolbox/__pycache__
 toolbox/__pycache__/*
 tests/__pycache__/*
 toolbox/sparky/__pycache__/*
+coverage.xml
+htmlcov
+htmlcov/*
+test-report.xml
+.coverage
