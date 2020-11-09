@@ -35,6 +35,7 @@ def test_export_as_json():
     _walk = os.walk("/tmp/out/")
     for root, dirs, files in _walk:
         _fs = [_f for _f in files if not _f[0] == '.']
+        _fs = [_f for _f in _fs if not '_SUCCESS' in _f]
         _file = _fs[1]
     with open(f'/tmp/out/{_file}') as f:
         try:
