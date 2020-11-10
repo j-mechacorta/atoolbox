@@ -1,6 +1,6 @@
 from pyspark.sql import SparkSession
 import pytest
-import atoolbox.spark as tbs 
+import atoolbox.spark.functions as tbs 
 
 
 schemaa = 'id: INT, a: STRING'

@@ -6,7 +6,7 @@ from pyspark.sql.functions import col
 from operator import add
 from functools import reduce
 import json
-import atoolbox.spark as tbs
+import atoolbox.spark.functions as tbs
 
 
 sa = StructType([
