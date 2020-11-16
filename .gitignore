@@ -13,3 +13,5 @@ htmlcov
 htmlcov/*
 test-report.xml
 .coverage
+.vscode*
+.vscode/*
