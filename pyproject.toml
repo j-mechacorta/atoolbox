@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "atoolbox"
-version = "0.0.4"
+version = "0.0.5"
 description = "Useful spark functions to join multiple dataframes, sum all numeric fields in a row and export dataframe to json file and NOT json records"
 authors = ["A. Alanis <ze13ju@gmail.com>"]
 license = "MIT"
