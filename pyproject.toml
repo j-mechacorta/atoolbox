@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "atoolbox"
-version = "0.0.3"
+version = "0.0.4"
 description = "Useful spark dataframe functions and schema conversions (AVSC -> StructType)"
 authors = ["A. Alanis <ze13ju@gmail.com>"]
 license = "MIT"
