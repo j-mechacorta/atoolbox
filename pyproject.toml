@@ -18,10 +18,12 @@ include= ["LICENSE",]
 python = "^3.6"
 pyspark = "^3.0.0"
 PyFunctional = "^1.2.0"
+colorama = "^0.4.4"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.1.2"
 coverage = "^5.3"
+pylint = "^2.6.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

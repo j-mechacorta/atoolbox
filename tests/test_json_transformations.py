@@ -9,27 +9,8 @@ import json
 import atoolbox.spark.functions as tbs
 
 
-sa = StructType([
-    StructField('id', IntegerType(), False),
-    StructField('tag', StringType(), False),
-    StructField('a1', IntegerType(), False),
-    StructField('a2', IntegerType(), False),
-    ])
-
-da = [
-        (1,'a',1,1),
-        (2,'a',1,1),
-        (3,'a',1,1)]
-
-spark = (SparkSession.builder
-    .config("master", "local[*]")
-    .appName("test-session")
-    .getOrCreate())
-
-dfa = spark.createDataFrame(da, sa)
-
-def test_export_as_json():
-    df = tbs.toJson(dfa)
+def test_export_as_json(test_data):
+    df = tbs.toJson(test_data["dfa"])
     isJson = False
     _file = ""
     _walk = os.walk("/tmp/out/")
